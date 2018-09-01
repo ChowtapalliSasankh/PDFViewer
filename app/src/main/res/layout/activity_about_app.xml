@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/b2">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/iconlarge"
+        android:layout_marginLeft="80dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ap1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PDF Viewer"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="110dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorNew2"
+        android:id="@+id/ap2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This App contains all the features of a regular PDF viewing app along with the latest features like Bookmarkss which enable you to jump between importanf pages easily and also the notes feature which allows one to not important information ofpertainning to a particular file"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorNew2"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Developed By: "
+    android:layout_marginTop="20dp"
+    android:textAlignment="viewStart"
+    android:textColor="@color/colorNew2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="           C.krishna Sasankh"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimaryDark" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                  (BE/10248/16)"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/ap3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:layout_marginLeft="40dp"
+        android:text="Currently pursuing B.E in Computer Science and Engineering from BIT Mesra"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/ap4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="sasilfhs@gmail.com"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/ap5"/>
+
+</LinearLayout>
+
